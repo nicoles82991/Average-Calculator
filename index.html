@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find The Average</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="maincontainer">
+        <h1>Find the Average</h1>
+        <div id="decreaseincrease">
+          <h2>Add Numbers:</h2>
+          <h3>(You can add up to 100 numbers)</h3>
+          <button id="increase">Increase</button
+          ><button id="decrease">Decrease</button>
+        </div>
+        <div id="numcontainer">
+          <div class="number" id="divnum1">
+            <label for="inputnum1" id="labelnum1">Number #1:</label>
+            <input type="number" id="inputnum1" class="numberinput" />
+          </div>
+          <div class="number" id="divnum2">
+            <label for="inputnum2" id="labelnum2">Number #2:</label>
+            <input type="number" id="inputnum2" class="numberinput" />
+          </div>
+        </div>
+      </div>
+      <div class="resultcontainer">
+        <div>
+          <h2 class="resulth2">The numbers chosen:</h2>
+          <p id="numberschosen"></p>
+        </div>
+        <div>
+          <h2 class="resulth2">The average is:</h2>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
